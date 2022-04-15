@@ -32,7 +32,7 @@ def quebrarSenha(valores):
         if (caracter == senhaGerada[caracteresEncontrados]):
             senhaEncontrada += caracter
             print(senhaEncontrada)
-            time.sleep(1)
+            time.sleep(0.5)
     print(f"\033[31mSENHA GERADA:\n{senhaGerada}")
     print(f"\033[34mSENHA HACKEADA:\n{senhaEncontrada}")
 
